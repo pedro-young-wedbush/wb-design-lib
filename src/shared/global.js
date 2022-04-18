@@ -1,5 +1,5 @@
 import { createGlobalStyle, css } from 'styled-components'
-
+import { normalize } from 'styled-normalize'
 import { Colors, Typography } from './styles'
 
 export const fontUrl =
@@ -10,6 +10,9 @@ export const bodyStyles = css`
 `
 
 export const GlobalStyle = createGlobalStyle`
- body {
-   ${bodyStyles}
- }`
+  ${normalize}
+
+  body {
+    ${bodyStyles}
+  }
+ `
