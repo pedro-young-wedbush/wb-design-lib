@@ -1,12 +1,15 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
+import { StyledTag } from './styles'
 interface TagProps {
   title?: string;
 }
+
 const Tag: FC<TagProps> = ({ title="My title" }) => {
   return (
-    <div style={{backgroundColor: 'yellow'}}>
+    <StyledTag>
       {title}
-    </div>
+    </StyledTag>
   )
 }
+
 export default Tag
