@@ -1,6 +1,6 @@
 import { createGlobalStyle, css } from 'styled-components'
 import { normalize } from 'styled-normalize'
-import { Colors, Typography } from './styles'
+// import { Colors, Typography } from './styles'
 
 export const fontUrl =
   'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800,900'
