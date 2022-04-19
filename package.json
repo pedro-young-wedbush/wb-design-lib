@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "pretty": "prettier --write .",
     "lint": "eslint -c .eslintrc.json --ext .js,.jsx,.ts,.tsx .",
     "lint:fix": "yarn run lint -- --fix",
     "build": "react-scripts build",
