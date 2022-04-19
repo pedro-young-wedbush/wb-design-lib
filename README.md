@@ -1,10 +1,10 @@
 # Create WD Design Component Library with React Storybook
 
 ```
-"version": "0.3.0"
+"version": "0.4.0"
 ```
 
-## Add prtty
+## Add pretty
 
 ```
 $> yarn pretty
@@ -21,3 +21,5 @@ $> yarn lint
 ```
 $> yarn lint:fix
 ```
+
+## Add custom fonts to storybook
