@@ -33,5 +33,10 @@
         "extensions": [".tsx"]
       }
     ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
