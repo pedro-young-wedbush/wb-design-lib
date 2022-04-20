@@ -1,6 +1,7 @@
 build
 coverage
 public
+storybook-static
 
 *.html
 .eslintrc.json
