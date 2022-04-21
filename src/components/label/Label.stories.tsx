@@ -12,9 +12,9 @@ const Template: ComponentStory<typeof Label> = (args) => <Label {...args} />
 export const Heading = Template.bind({})
 Heading.args = {
   fontSize: '16px',
-  fontStyle: "regular",
+  fontStyle: 'regular',
   fontWeight: 700,
-  lineHeight: "40px",
-  color: "red",
-  text: "Hello"
+  lineHeight: '40px',
+  color: 'red',
+  text: 'Hello',
 }

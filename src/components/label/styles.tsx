@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export interface LabelProps {
-  fontSize: string,
-  fontStyle: string,
-  fontWeight: number,
-  lineHeight: string,
-  color: string,
+  fontSize: string
+  fontStyle: string
+  fontWeight: number
+  lineHeight: string
+  color: string
   text?: string
 }
 
