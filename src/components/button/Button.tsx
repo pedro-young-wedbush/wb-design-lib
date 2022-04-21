@@ -8,7 +8,7 @@ interface ButtonProps {
 }
 
 export const Button = ({
-  primary = false,
+  primary = False,
   size = 'medium',
   backgroundColor,
   label,
