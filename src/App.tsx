@@ -1,8 +1,8 @@
 import { FC } from 'react'
 
-import { GlobalStyle, Container, Main, SideBar } from './global'
+import { GlobalStyle, Container, Main, SideBar, Header, Footer } from './global'
 
-const App:FC = () => {
+const App: FC = () => {
   return (
     <>
       <GlobalStyle />
@@ -11,7 +11,14 @@ const App:FC = () => {
           <h1>Side Bar</h1>
         </SideBar>
         <Main>
-          <h1>Home Page</h1>
+          <Header>
+            <h1>Header</h1>
+          </Header>
+          {/* <div></div>
+          <h1>Main Content</h1> */}
+          <Footer>
+            <h1>Footer</h1>
+          </Footer>
         </Main>
       </Container>
     </>
