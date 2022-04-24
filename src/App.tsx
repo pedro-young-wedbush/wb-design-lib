@@ -8,6 +8,8 @@ import {
   SidePane,
   MainPane,
   Container,
+  ArticleWrapper,
+  AsideWrapper,
 } from './global'
 
 const App: FC = () => {
@@ -20,7 +22,10 @@ const App: FC = () => {
         </SidePane>
         <MainPane>
           <Header>Header</Header>
-          <MainContentWrapper>Main Content</MainContentWrapper>
+          <MainContentWrapper>
+            <ArticleWrapper>Article Content</ArticleWrapper>
+            <AsideWrapper>Aside</AsideWrapper>
+          </MainContentWrapper>
           <Footer>Footer</Footer>
         </MainPane>
       </Container>
