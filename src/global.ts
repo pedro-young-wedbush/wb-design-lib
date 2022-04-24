@@ -70,4 +70,3 @@ export const Footer = styled.div`
   /* background-color: #f0f2f5; */
   background-color: #00245d;
 `
-

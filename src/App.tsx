@@ -19,13 +19,9 @@ const App: FC = () => {
           <h1>Side Pane</h1>
         </SidePane>
         <MainPane>
-          <Header>
-            Header
-          </Header>
+          <Header>Header</Header>
           <MainContentWrapper>Main Content</MainContentWrapper>
-          <Footer>
-            Footer
-          </Footer> 
+          <Footer>Footer</Footer>
         </MainPane>
       </Container>
     </>
