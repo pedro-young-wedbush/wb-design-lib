@@ -1,25 +1,29 @@
 import { FC } from 'react'
 
-import { GlobalStyle, Container, Main, SideBar, Header, Footer } from './global'
+import { GlobalStyle, Main, SideBar, Header, Footer, MainContentWrapper, SidePane, MainPane, Container } from './global'
 
 const App: FC = () => {
   return (
     <>
       <GlobalStyle />
       <Container>
-        <SideBar>
-          <h1>Side Bar</h1>
-        </SideBar>
-        <Main>
+        <SidePane>
+          <h1>Side Pane</h1>
+        </SidePane>
+        <MainPane>
+          <h1>Main Pane</h1>
+        </MainPane>
+        {/* <Main>
           <Header>
             <h1>Header</h1>
           </Header>
-          {/* <div></div>
-          <h1>Main Content</h1> */}
+          <MainContentWrapper>
+            <h1>Main Content</h1>
+          </MainContentWrapper>
           <Footer>
             <h1>Footer</h1>
           </Footer>
-        </Main>
+        </Main> */}
       </Container>
     </>
   )
