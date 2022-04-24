@@ -1,14 +1,14 @@
-import {Textbox} from "./Textbox";
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Textbox } from './Textbox'
+import { ComponentMeta, ComponentStory } from '@storybook/react'
 
 export default {
-  title: "Components/Textbox",
+  title: 'Components/Textbox',
   Component: Textbox,
-} as ComponentMeta<typeof Textbox>;
+} as ComponentMeta<typeof Textbox>
 
-const Template: ComponentStory<typeof Textbox> = (args) => <Textbox {...args} />;
+const Template: ComponentStory<typeof Textbox> = (args) => <Textbox {...args} />
 
-export const Regular = Template.bind({});
+export const Regular = Template.bind({})
 Regular.args = {
-  placeholder: "Hello",
-};
+  placeholder: 'Hello',
+}

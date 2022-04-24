@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const StyledInput = styled.input`
   width: 408px;
@@ -9,7 +9,7 @@ export const StyledInput = styled.input`
   padding: 0px 16px 0px 16px;
   blend: Pass through;
   gap: 12px;
-  
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -26,8 +26,8 @@ export const StyledInput = styled.input`
   line-height: 24px;
   font-color: #374253;
   opacity: 0.8;
-//   flex: none;
-//   order: 1;
-//   flex-grow: 0;
+  //   flex: none;
+  //   order: 1;
+  //   flex-grow: 0;
   margin: 0px 8px;
-`;
+`
