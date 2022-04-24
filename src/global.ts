@@ -46,17 +46,19 @@ export const Header = styled.div`
   padding: 0;
   margin: 0;
 
-  height: 20vh;
+  height: 240px;
 
-  color: white;
-  background-color: #00245d;
+  color: black;
+  background-color: #F0F2F5;
+  border-bottom: 5px red;
+  border
 `
 
 export const MainContentWrapper = styled.div`
   display: flex;
   flex-direction: row;
 
-  min-height: 60vh;
+  min-height: 75%;
 
   color: black;
   /* background-color: lightcoral; */
@@ -64,7 +66,7 @@ export const MainContentWrapper = styled.div`
 `
 
 export const Footer = styled.div`
-  height: 20vh;
+  height: 76px;
 
   color: white;
   /* background-color: #f0f2f5; */
