@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const ArticleWrapper = styled.div`
+const StyledArticle = styled.div`
   flex: 3;
   min-height: 100%;
 
@@ -9,4 +9,4 @@ const ArticleWrapper = styled.div`
   background-color: tan;
 `
 
-export default ArticleWrapper
+export default StyledArticle

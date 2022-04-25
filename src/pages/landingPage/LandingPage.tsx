@@ -30,7 +30,9 @@ function PageContent() {
         </HeaderLayout>
 
         <MainContentWrapper>
-          <ArticleLayout><p>Article Content</p></ArticleLayout>
+          <ArticleLayout>
+            <p>Article Content</p>
+          </ArticleLayout>
           <AsideWrapper>Aside</AsideWrapper>
         </MainContentWrapper>
 
