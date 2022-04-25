@@ -37,19 +37,3 @@ export const MainContentWrapper = styled.div`
   background-color: #f0f2f5;
 `
 
-// export const ArticleWrapper = styled.div`
-//   flex: 3;
-//   min-height: 100%;
-
-//   color: white;
-//   /* background-color: #f0f2f5; */
-//   background-color: tan;
-// `
-
-export const AsideWrapper = styled.div`
-  flex: 1;
-
-  color: white;
-  background-color: #f0f2f5;
-  background-color: sandybrown;
-`
