@@ -19,14 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   ${BodyStyles}
 `
 
-export const StyledContainer = styled.div`
-  flex: 1 1 100%;
-  display: flex;
-  flex-direction: row wrap;
 
-  color: white;
-  background-color: salmon;
-`
 
 export const SidePane = styled.div`
   flex: 1;
