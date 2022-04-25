@@ -19,12 +19,6 @@ export const GlobalStyle = createGlobalStyle`
   ${BodyStyles}
 `
 
-export const SidePane = styled.div`
-  flex: 1;
-  color: black;
-  background: #d7e8d4;
-`
-
 export const MainPane = styled.div`
   display: flex;
   flex-direction: column;
@@ -66,15 +60,4 @@ export const AsideWrapper = styled.div`
   color: white;
   background-color: #f0f2f5;
   background-color: sandybrown;
-`
-
-export const Header = styled.div`
-  padding: 0;
-  margin: 0;
-
-  height: 240px;
-
-  color: black;
-  background-color: #f0f2f5;
-  border-bottom: 5px red;
 `

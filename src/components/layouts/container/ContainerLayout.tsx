@@ -5,8 +5,8 @@ interface childProps {
   children: React.ReactElement
 }
 
-const Container: FC<childProps> = ({ children }) => {
+const ContainerLayout: FC<childProps> = ({ children }) => {
   return <StyledContainer>{children}</StyledContainer>
 }
 
-export default Container
+export default ContainerLayout

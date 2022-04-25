@@ -19,21 +19,6 @@ export const GlobalStyle = createGlobalStyle`
   ${BodyStyles}
 `
 
-export const Container = styled.div`
-  flex: 1 1 100%;
-  display: flex;
-  flex-direction: row wrap;
-
-  color: white;
-  background-color: salmon;
-`
-
-export const SidePane = styled.div`
-  flex: 1;
-  color: black;
-  background: #d7e8d4;
-`
-
 export const MainPane = styled.div`
   display: flex;
   flex-direction: column;
@@ -42,17 +27,16 @@ export const MainPane = styled.div`
   background: salmon;
 `
 
-export const Header = styled.div`
-  padding: 0;
-  margin: 0;
+// export const Header = styled.div`
+//   padding: 0;
+//   margin: 0;
 
-  height: 240px;
+//   height: 240px;
 
-  color: black;
-  background-color: #F0F2F5;
-  border-bottom: 5px red;
-  border
-`
+//   color: black;
+//   background-color: #F0F2F5;
+//   border-bottom: 5px red;
+// `
 
 export const MainContentWrapper = styled.div`
   display: flex;

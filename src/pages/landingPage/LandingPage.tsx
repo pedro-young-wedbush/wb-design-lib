@@ -1,7 +1,8 @@
 import LandingPageLayout from '../../components/layouts/landingPage/LandingPageLayout'
+import HeaderLayout
+ from '../../components/layouts/header/HeaderLayout'
 
 import {
-  Header,
   Footer,
   MainContentWrapper,
   MainPane,
@@ -18,7 +19,8 @@ function PageContent() {
         <h1>Side Pane</h1>
       </SidePaneLayout>
       <MainPane>
-        <Header>Header</Header>
+        <HeaderLayout><h1>Header</h1></HeaderLayout>
+        
         <MainContentWrapper>
           <ArticleWrapper>Article Content</ArticleWrapper>
           <AsideWrapper>Aside</AsideWrapper>
