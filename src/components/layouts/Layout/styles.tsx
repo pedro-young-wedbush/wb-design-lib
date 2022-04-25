@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   ${BodyStyles}
 `
 
-export const Container = styled.div`
+export const StyledContainer = styled.div`
   flex: 1 1 100%;
   display: flex;
   flex-direction: row wrap;
@@ -84,6 +84,6 @@ export const Header = styled.div`
   height: 240px;
 
   color: black;
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
   border-bottom: 5px red;
 `
