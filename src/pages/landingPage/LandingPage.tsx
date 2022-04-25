@@ -11,13 +11,33 @@ import {
 
 import SidePaneLayout from '../../components/layouts/sidePane/SidePaneLayout'
 
+import HeaderContent from './headerContent/HeaderContent'
+
 const SidePaneContent = () => {
   return <h1>Side Pane</h1>
 }
 
-const HeaderContent = () => {
-  return <h1>Header</h1>
-}
+// const HeaderContent = () => {
+//   return (
+//     <>
+//       <div>Stock Widget</div>
+//       <div>Page Heading Panel</div>
+//       <div>
+//         <p>Financial Summary Panel</p>
+//         <div>Financial Summary Panel</div>
+//         <div>
+//           <div>FinSummaryWidget</div>
+//           <div>FinSummaryWidget</div>
+//           <div>FinSummaryWidget</div>
+//           <div>FinSummaryWidget</div>
+//         </div>
+
+//       </div>
+
+//     </>
+
+//   )
+// }
 
 const FooterContent = () => {
   return <h1>Footer</h1>
