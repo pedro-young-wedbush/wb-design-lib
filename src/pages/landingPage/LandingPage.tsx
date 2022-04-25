@@ -1,18 +1,18 @@
 import LandingPageLayout from '../../components/layouts/landingPage/LandingPageLayout'
 import HeaderLayout from '../../components/layouts/header/HeaderLayout'
 import FooterLayout from '../../components/layouts/footer/FooterLayout'
+import ArticleLayout from '../../components/layouts/article/ArticleLayout'
 
 import {
   MainContentWrapper,
   MainPane,
-  ArticleWrapper,
   AsideWrapper,
 } from '../../components/layouts/landingPage/styles'
 
 import SidePaneLayout from '../../components/layouts/sidePane/SidePaneLayout'
 
 import HeaderContent from './headerContent/HeaderContent'
-import FooterContent from './footerContent/FooterContent'   
+import FooterContent from './footerContent/FooterContent'
 
 const SidePaneContent = () => {
   return <h1>Side Pane</h1>
@@ -30,7 +30,7 @@ function PageContent() {
         </HeaderLayout>
 
         <MainContentWrapper>
-          <ArticleWrapper>Article Content</ArticleWrapper>
+          <ArticleLayout><p>Article Content</p></ArticleLayout>
           <AsideWrapper>Aside</AsideWrapper>
         </MainContentWrapper>
 
