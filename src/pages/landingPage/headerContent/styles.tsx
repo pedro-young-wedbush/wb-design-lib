@@ -4,7 +4,7 @@ export const RootContainer = styled.div`
   display: flex;
   flex-direction: column;
   color: black;
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
 `
 
 export const StockWidgetWrapper = styled.div`
@@ -13,7 +13,7 @@ export const StockWidgetWrapper = styled.div`
   width: 100%;
   padding: 12px 58px 12px 58px;
   color: white;
-  background-color: #00245D;
+  background-color: #00245d;
 `
 
 export const PagingHeadingWrapper = styled.div`
