@@ -38,7 +38,7 @@ function PageContent() {
           <ArticleWrapper>Article Content</ArticleWrapper>
           <AsideWrapper>Aside</AsideWrapper>
         </MainContentWrapper>
-        
+
         <FooterLayout>
           <FooterContent />
         </FooterLayout>
