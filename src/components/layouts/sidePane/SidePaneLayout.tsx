@@ -5,8 +5,8 @@ interface childProps {
   children: React.ReactElement
 }
 
-const SidePane: FC<childProps> = ({ children }) => {
+const SidePaneLayout: FC<childProps> = ({ children }) => {
   return <StyledSidePane>{children}</StyledSidePane>
 }
 
-export default SidePane
+export default SidePaneLayout

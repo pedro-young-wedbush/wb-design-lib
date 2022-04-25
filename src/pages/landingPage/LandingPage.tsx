@@ -9,19 +9,19 @@ import {
   AsideWrapper,
 } from '../../components/layouts/landingPage/styles'
 
-import SidePane from '../../components/layouts/sidePane/SidePaneLayout'
+import SidePaneLayout from '../../components/layouts/sidePane/SidePaneLayout'
 
 function PageContent() {
   return (
     <>
-      <SidePane>
+      <SidePaneLayout>
         <h1>Side Pane</h1>
-      </SidePane>
+      </SidePaneLayout>
       <MainPane>
         <Header>Header</Header>
         <MainContentWrapper>
-        <ArticleWrapper>Article Content</ArticleWrapper>
-        <AsideWrapper>Aside</AsideWrapper>
+          <ArticleWrapper>Article Content</ArticleWrapper>
+          <AsideWrapper>Aside</AsideWrapper>
         </MainContentWrapper>
         <Footer>Footer</Footer>
       </MainPane>
