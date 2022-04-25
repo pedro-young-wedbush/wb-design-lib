@@ -19,8 +19,6 @@ export const GlobalStyle = createGlobalStyle`
   ${BodyStyles}
 `
 
-
-
 export const SidePane = styled.div`
   flex: 1;
   color: black;

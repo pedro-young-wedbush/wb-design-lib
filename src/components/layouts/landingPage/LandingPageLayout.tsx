@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 
 import { GlobalStyle } from './styles'
- 
+
 import Container from '../container/Container'
 
 interface childProps {
@@ -12,9 +12,7 @@ const LandingPageLayout: FC<childProps> = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Container>
-        { children }
-      </Container>
+      <Container>{children}</Container>
     </>
   )
 }
