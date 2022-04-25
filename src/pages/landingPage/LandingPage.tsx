@@ -12,13 +12,10 @@ import {
 import SidePaneLayout from '../../components/layouts/sidePane/SidePaneLayout'
 
 import HeaderContent from './headerContent/HeaderContent'
+import FooterContent from './footerContent/FooterContent'   
 
 const SidePaneContent = () => {
   return <h1>Side Pane</h1>
-}
-
-const FooterContent = () => {
-  return <h1>Footer</h1>
 }
 
 function PageContent() {

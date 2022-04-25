@@ -49,14 +49,6 @@ export const MainContentWrapper = styled.div`
   background-color: #f0f2f5;
 `
 
-export const Footer = styled.div`
-  height: 76px;
-
-  color: white;
-  /* background-color: #f0f2f5; */
-  background-color: #00245d;
-`
-
 export const ArticleWrapper = styled.div`
   flex: 3;
   min-height: 100%;
