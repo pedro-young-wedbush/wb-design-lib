@@ -7,7 +7,7 @@ const StyledHeader = styled.div`
   height: 240px;
 
   color: black;
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
   border-bottom: 5px red;
 `
 

@@ -1,9 +1,8 @@
 import LandingPageLayout from '../../components/layouts/landingPage/LandingPageLayout'
-import HeaderLayout
- from '../../components/layouts/header/HeaderLayout'
+import HeaderLayout from '../../components/layouts/header/HeaderLayout'
+import FooterLayout from '../../components/layouts/footer/FooterLayout'
 
 import {
-  Footer,
   MainContentWrapper,
   MainPane,
   ArticleWrapper,
@@ -12,20 +11,37 @@ import {
 
 import SidePaneLayout from '../../components/layouts/sidePane/SidePaneLayout'
 
+const SidePaneContent = () => {
+  return <h1>Side Pane</h1>
+}
+
+const HeaderContent = () => {
+  return <h1>Header</h1>
+}
+
+const FooterContent = () => {
+  return <h1>Footer</h1>
+}
+
 function PageContent() {
   return (
     <>
       <SidePaneLayout>
-        <h1>Side Pane</h1>
+        <SidePaneContent />
       </SidePaneLayout>
       <MainPane>
-        <HeaderLayout><h1>Header</h1></HeaderLayout>
-        
+        <HeaderLayout>
+          <HeaderContent />
+        </HeaderLayout>
+
         <MainContentWrapper>
           <ArticleWrapper>Article Content</ArticleWrapper>
           <AsideWrapper>Aside</AsideWrapper>
         </MainContentWrapper>
-        <Footer>Footer</Footer>
+        
+        <FooterLayout>
+          <FooterContent />
+        </FooterLayout>
       </MainPane>
     </>
   )
