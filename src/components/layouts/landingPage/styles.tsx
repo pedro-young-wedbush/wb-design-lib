@@ -36,4 +36,3 @@ export const MainContentWrapper = styled.div`
   color: black;
   background-color: #f0f2f5;
 `
-

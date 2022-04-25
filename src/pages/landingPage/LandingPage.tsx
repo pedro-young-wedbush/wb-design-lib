@@ -6,7 +6,7 @@ import AsideLayout from '../../components/layouts/aside/ArticleLayout'
 
 import {
   MainContentWrapper,
-  MainPane
+  MainPane,
 } from '../../components/layouts/landingPage/styles'
 
 import SidePaneLayout from '../../components/layouts/sidePane/SidePaneLayout'
@@ -33,7 +33,9 @@ function PageContent() {
           <ArticleLayout>
             <p>Article Content</p>
           </ArticleLayout>
-          <AsideLayout><p>Aside Content</p></AsideLayout>
+          <AsideLayout>
+            <p>Aside Content</p>
+          </AsideLayout>
         </MainContentWrapper>
 
         <FooterLayout>
