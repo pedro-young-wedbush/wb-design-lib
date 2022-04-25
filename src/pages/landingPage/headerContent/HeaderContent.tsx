@@ -14,10 +14,10 @@ const HeaderContent = () => {
         <div>Your Household Summary</div>
       </PagingHeadingWrapper>
       <SummaryWidgetPanel>
-        <div>Stock Widget</div>
-        <div>Stock Widget</div>
-        <div>Stock Widget</div>
-        <div>Stock Widget</div>
+        <div>Financial Summary Widget</div>
+        <div>Financial Summary Widget</div>
+        <div>Financial Summary Widget</div>
+        <div>Financial Summary Widget</div>
       </SummaryWidgetPanel>
     </RootContainer>
   )
