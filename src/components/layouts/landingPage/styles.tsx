@@ -22,16 +22,16 @@ export const GlobalStyle = createGlobalStyle`
 export const MainPane = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 5;
+  flex: 5 1 auto;
   min-height: 100vh;
   background: salmon;
 `
 
 export const MainContentWrapper = styled.div`
+  flex: 1 1 auto;
   display: flex;
   flex-direction: row;
 
-  min-height: 75%;
 
   color: black;
   background-color: #f0f2f5;
