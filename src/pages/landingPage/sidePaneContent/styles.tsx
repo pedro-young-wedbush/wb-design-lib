@@ -18,7 +18,7 @@ export const StyledLogoContainer = styled.div`
 `
 
 export const StyledMenuListContainer = styled.div`
-  flex: 1 1 auto;
+  flex: 1 1 100%;
   /* min-height: 85%; */
   background-color: teal;
 `
