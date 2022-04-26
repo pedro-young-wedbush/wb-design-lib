@@ -11,19 +11,19 @@ export const RootContainer = styled.div`
   /* background-color: goldenrod; */
 `
 
-export const StyledLogoContainer = styled.div `
+export const StyledLogoContainer = styled.div`
   flex: 0 0 auto;
   padding-top: 24px;
   padding-bottom: 24px;
 `
 
-export const StyledMenuListContainer = styled.div `
+export const StyledMenuListContainer = styled.div`
   flex: 1 1 auto;
   /* min-height: 85%; */
   background-color: teal;
 `
 
-export const StyledBottomContainer = styled.div `
+export const StyledBottomContainer = styled.div`
   flex: 0 0 auto;
   padding-top: 24px;
   padding-bottom: 24px;

@@ -4,7 +4,7 @@ const StyledSidePane = styled.div`
   flex: 1;
   /* min-height: 100vh; */
   color: black;
-  background: #FFFFFF;
+  background: #ffffff;
 `
 
 export default StyledSidePane
